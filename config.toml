@@ -91,7 +91,7 @@ weight = 7
 [[menu.main]]
 name = "纸👆"
 url = "/publications"
-weight = 7
+weight = 8
 
 [[menu.footer]]
 name = "CSDN"
