@@ -34,16 +34,17 @@ description = "w0r1d的个人技术博客，分享编程、投资、生活的思
 enableMathJax = true
 enableLaTeX=true
 enableReadingTime = true
-favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
+favicon = "https://youke2.picui.cn/s1/2025/12/25/694cf29ad7de1.jpg"
 subtitle = "凡事有交代，件件有着落，事事有回音"
-# twikooEnvId = "https://twikoo.riba2534.cn"
-enableTwikoo = true 
 
-# [params.gitalk]
-# owner = "user"
-# repo = "repo name"
-# client_id = "your client id"
-# client_secret = "your client secret"
+# twikooEnvId = "https://twikoo.riba2534.cn"
+# enableTwikoo = true 
+
+[params.gitalk]
+owner = "cs-w0r1d"
+repo = "cs-w0r1d.github.io"
+client_id = "2535640"
+client_secret = "Iv23liEhF8ZGGaTHWNdr"
 
 [taxonomies]
 category = "categories"
