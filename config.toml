@@ -26,7 +26,7 @@ tabWidth = 4
 unsafe = true
 
 [params]
-nableGitalk = true 
+enableGitalk = true 
 enableOpenGraph = true
 enableTwitterCards = true
 
@@ -44,8 +44,8 @@ subtitle = "凡事有交代，件件有着落，事事有回音"
 [params.gitalk]
 owner = "cs-w0r1d"
 repo = "cs-w0r1d.github.io"
-client_id = "2535640"
-client_secret = "Iv23liEhF8ZGGaTHWNdr"
+client_id = "Iv23liEhF8ZGGaTHWNdr"
+client_secret = "6edd51cc27b9b9eb427880f99cecd7e24cea0f37"
 
 [taxonomies]
 category = "categories"
