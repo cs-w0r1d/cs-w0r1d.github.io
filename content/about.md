@@ -5,7 +5,7 @@ draft: false
 type: about
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210507131216.png"
 description: "种一棵树最好的时间是十年前，其次是现在"
-comment : true
+comments : true
 enableVue : true
 ---
 
