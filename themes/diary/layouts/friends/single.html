@@ -4,18 +4,12 @@
 
     <div class="post-list-container post-list-container-shadow">
         <div class="post">
-            {{ $post_class := "post-head-wrapper-text-only"}}
-            {{ $featured_image := .Params.featured_image }}
-            {{ if $featured_image }}
-            {{ $post_class = "post-head-wrapper"}}
-            {{ end }}
+            {{ $post_class := "post-head-wrapper-text-only"}} {{ $featured_image := .Params.featured_image }} {{ if $featured_image }} {{ $post_class = "post-head-wrapper"}} {{ end }}
 
-            <div class="{{$post_class}}" {{ if $featured_image }} {{ $image :=.Resources.GetMatch
-                (.Params.featured_image) }} {{ if $image }} style="background-image: url('{{$image.Permalink }}')" {{
-                else }} style="background-image: url('{{ $featured_image | absURL }}')" {{ end }} {{ end }}>
+            <div class="{{$post_class}}" {{ if $featured_image }} {{ $image :=.Resources.GetMatch (.Params.featured_image) }} {{ if $image }} style="background-image: url('{{$image.Permalink }}')" {{ else }} style="background-image: url('{{ $featured_image | absURL }}')"
+                {{ end }} {{ end }}>
                 <div class="post-title">
-                    {{ .Title }}
-                    {{ if .Params.description }}
+                    {{ .Title }} {{ if .Params.description }}
                     <div class="post-subtitle">
                         {{ .Params.description }}
                     </div>
@@ -28,13 +22,11 @@
                     <div class="container">
                         <div id="friend-list" class="row">
                             <!-- Friend Components -->
-                            <friend description="之前打ACM认识的，很好的朋友，目前在蚂蚁金服" url="https://www.dreamwings.cn/"
-                                avator="https://avatars.githubusercontent.com/u/16916936?v=4" github="im0qianqian">
-                                千千
+                            <friend description="车位1" url="https://www.qq.cn/" avator="https://avatars.githubusercontent.com/u/16916936?v=4" github="im0qianqian">
+                                xx
                             </friend>
-                            <friend description="Linux底层大佬，无所不知，目前在新加坡 Shopee" url="https://www.caiyifan.cn/"
-                                avator="https://avatars.githubusercontent.com/u/19800901?v=4" github="IfanTsai">
-                                菜菜
+                            <friend description="车位2" url="https://www.qq.cn/" avator="https://avatars.githubusercontent.com/u/19800901?v=4" github="IfanTsai">
+                                yy
                             </friend>
                         </div>
                     </div>
@@ -46,9 +38,7 @@
                 <div class="post-body">
                     {{ else }}
                     <div class="post-body" v-pre>
-                        {{ end }}
-                        {{.Content}}
-                        {{ if not .Lastmod.IsZero }}
+                        {{ end }} {{.Content}} {{ if not .Lastmod.IsZero }}
                         <HR width="100%" id="EOF">
                         <p style="color:#777;">{{ i18n "last_mod_on" .Page.Lastmod }}</p>
                         {{ end }}
@@ -60,9 +50,7 @@
                     <p style="opacity: 0.6" align="center">
                         <small>{{ i18n "comments_disabled" }}</small>
                     </p>
-                    {{ else }}
-                    {{- partial "comment.html" . -}}
-                    {{ end }}
+                    {{ else }} {{- partial "comment.html" . -}} {{ end }}
                 </div>
             </div>
         </div>
@@ -107,4 +95,3 @@
     </div>
 
     {{ end }}
-
