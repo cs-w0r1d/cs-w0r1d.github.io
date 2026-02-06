@@ -11,7 +11,7 @@ enableVue : true
 
 # 🐵Who am I
 
-<img src="https://youke2.picui.cn/s1/2025/12/25/694cf29ad7de1.jpg"  width="30px" height="30px"  alt="头像"/>
+<img src="w0r1d.jpg" width="30px" height="30px" alt="头像"/>
 我是 w0r1d.
 
 ## 简介
