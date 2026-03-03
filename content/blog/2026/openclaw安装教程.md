@@ -1,7 +1,7 @@
 ---
 title: "openclaw 龙虾养成日记"
-date: 2026-3-02T22:00:00+08:00
-lastmod: 2026-3-03T23:20:00+08:00
+date: 2026-03-03T11:14:35Z
+lastmod: 2026-03-03T11:14:35Z
 draft: false
 featured_image: ![alt text](src/openclaw-virustotal.svg)
 description: "学习使用opneclaw"
