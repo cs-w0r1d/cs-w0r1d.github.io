@@ -1,9 +1,7 @@
 ---
 title: "openclaw 龙虾养成日记"
-date: 2026-03-03T11:14:35Z
-lastmod: 2026-03-03T11:14:35Z
+date: 2026-03-03T13:11:39+08:00
 draft: false
-featured_image: ![alt text](src/openclaw-virustotal.svg)
 description: "学习使用opneclaw"
 tags:
 - AI
@@ -11,6 +9,7 @@ categories:
 - openclaw
 comment : true
 ---
+
 
 # openclaw 龙虾养成日记day1
 
