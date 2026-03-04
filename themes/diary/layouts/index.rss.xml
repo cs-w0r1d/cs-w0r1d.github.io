@@ -18,7 +18,7 @@
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-        {{ with with .Site.Params.author }}{{ .email }}{{ end }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+        {{ with .Site.Params.author }}{{ .email }}{{ end }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Site.Title }} {{ .Permalink }} - {{- .Content | html -}} - {{ .Permalink }} - {{.Site.Copyright}}</description>
         </item>
