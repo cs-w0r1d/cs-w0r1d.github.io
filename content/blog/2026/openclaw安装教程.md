@@ -90,6 +90,7 @@ openclaw config
 
 ![alt text](/images/openclaw/image29.png)
 配置完成，关闭终端；
+
 ![alt text](/images/openclaw/image30.png)
 
  重新打开终端，然后输入下方代码，重启配置；

@@ -11,7 +11,7 @@ enableVue : true
 
 # 🐵Who am I
 
-<img src="w0r1d.jpg" width="30px" height="30px" alt="头像"/>
+<img src="/images/about/w0r1d.jpg" width="30px" height="30px" alt="头像"/>
 我是 w0r1d.
 
 ## 简介
