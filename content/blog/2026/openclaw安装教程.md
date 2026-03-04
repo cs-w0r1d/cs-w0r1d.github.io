@@ -69,8 +69,10 @@ openclaw config
 
 ![alt text](/images/openclaw/image22.png)
 选择「Channels;
+
 ![alt text](/images/openclaw/image23.png)
 选择「Configure/link」;
+
 ![alt text](/images/openclaw/image24.png)
 选择「Feishu/Lark（飞书）」;
 
