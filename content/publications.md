@@ -13,12 +13,14 @@ description : 一些纸~
 [WSISum: WSI summarization via dual-level semantic reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hk6YoUkAAAAJ&citation_for_view=hk6YoUkAAAAJ:W7OEmFMy1HYC)
 
 *B Wang, K Zhang, Y Wang, Y Gu, H Luan, Y Zhou, T Hu, R Wang, Z Yang, Z Jiang, ...*
+
 *Medical Image Analysis*
 
 # 2025
 
 [Realunify: Do unified models truly benefit from unification? a comprehensive benchmark](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hk6YoUkAAAAJ&citation_for_view=hk6YoUkAAAAJ:Y0pCki6q_DkC)
 *Y Shi, Y Dong, Y Ding, Y Wang, X Zhu, S Zhou, W Liu, H Tian, R Wang,...*
+
 *The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026*
 
 
